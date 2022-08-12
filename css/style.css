@@ -1,0 +1,22 @@
+.container-burger {
+    background-color: red;
+    height: 100px;
+    color: #fff;
+    display: grid;
+    align-items: center;
+}
+ul {
+    display: flex;
+}
+ul li{
+    list-style: none;
+    display:flex;
+    margin: 0px 80px;
+    font-weight: 900;
+}
+
+@media screen and(max-width:500px) {
+    .container-burger{
+        display: none;
+    }
+}
